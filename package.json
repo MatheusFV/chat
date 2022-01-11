@@ -1,0 +1,30 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Simple chat app for education purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test",
+    "dev": "ts-node index.ts",
+    "start:sync": "ts-node sync/server.ts",
+    "chat": "ts-node sync/interface.ts"
+  },
+  "author": "Matheus Freitas Venosas (MatheusFV)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.13",
+    "@types/request": "^2.48.8",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^8.6.0",
+    "ts-node": "^10.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "request": "^2.88.2"
+  }
+}
